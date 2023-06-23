@@ -2,8 +2,9 @@ English | [Chinese](./README.md)
 
 <p>
 <strong><h2>Rarrot的网站</h2></strong>
-Basically follow[imyee](https://github.com/imsyy/home)
 </p>
+
+Basically follow [imyee](https://github.com/imsyy/home)
 
 ![Rarrot的网站](https://cdn.staticaly.com/gh/hr1201/img@main/imgs/image-20230623212442087.png)
 
