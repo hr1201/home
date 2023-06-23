@@ -29,6 +29,7 @@
   </div>
 </template>
 <script setup>
+import { yo } from 'yoo-hoo';//控制台打印文字横幅
 import { onMounted, onBeforeUnmount, watch } from "vue";
 import { helloInit, checkDays } from "@/utils/getTime.js";
 import { mainStore } from "@/store";
@@ -97,23 +98,28 @@ onMounted(() => {
 
   // 控制台输出
   let styleTitle1 = "font-size: 20px;font-weight: 600;color: rgb(244,167,89);";
-  let styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
-  let styleContent = "color: rgb(30,152,255);";
-  let title1 = "無名の主页";
-  let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|`;
-  let content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
-  console.info(
-    `%c${title1} %c${title2} %c${content}`,
-    styleTitle1,
-    styleTitle2,
-    styleContent
-  );
+let styleTitle2 = "font-size:12px; color: rgb(244,167,89);";
+let styleContent = "color: rgb(30,152,255);";
+let title1 = "Rarrot的网站\n";
+let content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
+let title2 = yo('Rarrot', {
+  silent: true,
+  spacing:3,
+  color:"rainbow"
+});
+
+let title2Str = ''; // 定义一个空字符串，用于拼接title2的每一项
+
+for (let i = 0; i < title2.length; i++) {
+  title2Str += '\n'+title2[i] ; // 将每一项拼接到字符串上，并加上换行符
+}
+
+console.info(
+  `%c${title1} %c${title2Str} %c${content}`,
+  styleTitle1,
+  styleTitle2,
+  styleContent
+);
 });
 
 // 监听宽度变化
