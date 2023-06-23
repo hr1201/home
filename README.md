@@ -1,8 +1,8 @@
 简体中文 | [English](./README_EN.md)
 
 <p>
-<strong><h2>無名の主页</h2></strong>
-简单的小主页，原来的看够了，重新弄了一个
+<strong><h2>Rarrot的网站</h2></strong>
+基本按照[imyee](https://github.com/imsyy/home)
 </p>
 
 ![Rarrot的网站](https://cdn.staticaly.com/gh/hr1201/img@main/imgs/image-20230623212442087.png)
