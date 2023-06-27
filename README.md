@@ -1,11 +1,20 @@
-简体中文 | [English](./README_EN.md)
+简体中文 
+自动检测
+中文
+请输入您要翻译的文字或网址
+0/5000
+通用领域
+生物医学
+金融财经
+| [English](./README_EN.md)
 
 <p>
-<strong><h2>無名の主页</h2></strong>
-简单的小主页，原来的看够了，重新弄了一个
+<strong><h2>Rarrot的网站</h2></strong>
 </p>
+ 
+基本按照 [imyee](https://github.com/imsyy/home/)
 
-![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
+![Rarrot的网站](https://cdn.staticaly.com/gh/hr1201/img@main/imgs/image-20230623212442087.png)
 
 >主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)
 
@@ -13,8 +22,7 @@
 
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
-- [無名の主页](https://www.imsyy.top)
-- [無名の主页 - 备用线路](https://home-imsyy.vercel.app/)
+- [Rarrot的网站](https://www.rorrot.cc)
 
 ### 功能
 

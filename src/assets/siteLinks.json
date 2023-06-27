@@ -23,5 +23,10 @@
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.imsyy.top/"
+  },
+  {
+    "icon": "Music",
+    "name": "音乐",
+    "link": "https://music.rorrot.cc/"
   }
 ]
